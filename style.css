@@ -1,0 +1,25 @@
+.header{
+    background-color: cadetblue;
+    display:flex;
+    justify-content: space-between;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end; 
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.header *{
+border:solid;
+}
+h1{
+    margin:30px;
+    padding:33px;
+    color:white;
+}
+p,h2{
+    text-align:center;
+}
